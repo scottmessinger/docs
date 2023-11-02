@@ -59,13 +59,12 @@
                     "group": "Writing Lessons",
                     "pages": [
                         "essentials/code",
-                        "essentials/code",
-                        "essentials/code",
+                        "essentials/images",
+                        "essentials/settings",
                         {
                             "group": "Writing Better Lessons",
                             "pages": [
                                 "essentials/images",
-                                "essentials/settings",
                                 "essentials/settings",
                                 {
                                     "group": "Somethign more lessons",
@@ -80,20 +79,19 @@
             ]
         },
         {
-            "group": "Lesson Planning",
+            "group": "Unit Planning",
             "pages": [
                 "essentials/markdown",
                 {
                     "group": "Writing Lessons",
                     "pages": [
                         "essentials/code",
-                        "essentials/code",
-                        "essentials/code",
+                        "essentials/images",
+                        "essentials/settings",
                         {
                             "group": "Writing Better Lessons",
                             "pages": [
                                 "essentials/images",
-                                "essentials/settings",
                                 "essentials/settings",
                                 {
                                     "group": "Somethign more lessons",
