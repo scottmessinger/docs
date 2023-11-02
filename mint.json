@@ -25,12 +25,6 @@
         "name": "Dashboard",
         "url": "https://dashboard.mintlify.com"
     },
-    "tabs": [
-        {
-            "name": "API Reference",
-            "url": "api-reference"
-        }
-    ],
     "anchors": [
         {
             "name": "Documentation",
@@ -58,20 +52,23 @@
             ]
         },
         {
-            "group": "Essentials",
+            "group": "Lesson Planning",
             "pages": [
                 "essentials/markdown",
                 {
-                    "group": "Nested!",
+                    "group": "Writing Lessons",
                     "pages": [
                         "essentials/code",
+                        "essentials/code",
+                        "essentials/code",
                         {
-                            "group": "More nested!",
+                            "group": "Writing Better Lessons",
                             "pages": [
                                 "essentials/images",
                                 "essentials/settings",
+                                "essentials/settings",
                                 {
-                                    "group": "4th level down!",
+                                    "group": "Somethign more lessons",
                                     "pages": [
                                         "essentials/navigation"
                                     ]
@@ -83,17 +80,31 @@
             ]
         },
         {
-            "group": "API Documentation",
+            "group": "Lesson Planning",
             "pages": [
-                "api-reference/introduction"
-            ]
-        },
-        {
-            "group": "Endpoint Examples",
-            "pages": [
-                "api-reference/endpoint/get",
-                "api-reference/endpoint/create",
-                "api-reference/endpoint/delete"
+                "essentials/markdown",
+                {
+                    "group": "Writing Lessons",
+                    "pages": [
+                        "essentials/code",
+                        "essentials/code",
+                        "essentials/code",
+                        {
+                            "group": "Writing Better Lessons",
+                            "pages": [
+                                "essentials/images",
+                                "essentials/settings",
+                                "essentials/settings",
+                                {
+                                    "group": "Somethign more lessons",
+                                    "pages": [
+                                        "essentials/navigation"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
         }
     ],
