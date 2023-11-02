@@ -6,6 +6,8 @@ icon: 'gear'
 
 Every Mintlify site needs a `mint.json` file with the core configuration settings. Learn more about the [properties](#properties) below.
 
+Hi there!
+
 ## Properties
 
 <ResponseField name="name" type="string" required>
@@ -103,7 +105,7 @@ Example: `mintlify`
     </ResponseField>
     <ResponseField name="url" type="string">
     If `link`: What the button links to.
-    
+
     If `github`: Link to the repository to load GitHub information from.
     </ResponseField>
     <ResponseField name="name" type="string">
@@ -228,7 +230,7 @@ Example: `mintlify`
 <ResponseField name="openapi" type="string | string[]">
   A string or an array of strings of URL(s) or relative path(s) pointing to your
   OpenAPI file.
-  
+
   Examples:
   <CodeGroup>
     ```json Absolute
@@ -246,8 +248,8 @@ Example: `mintlify`
 
 <ResponseField name="footerSocials" type="FooterSocials">
   An object of social media accounts where the key:property pair represents the social media platform and the account url.
-  
-  Example: 
+
+  Example:
   ```json
   {
     "twitter": "https://twitter.com/mintlify",
@@ -257,12 +259,12 @@ Example: `mintlify`
   <Expandable title="FooterSocials">
     <ResponseField name="[key]" type="string">
     One of the following values `website`, `facebook`, `twitter`, `discord`, `slack`, `github`, `linkedin`, `instagram`, `hacker-news`
-    
+
     Example: `twitter`
     </ResponseField>
     <ResponseField name="property" type="string">
     The URL to the social platform.
-    
+
     Example: `https://twitter.com/mintlify`
     </ResponseField>
   </Expandable>
@@ -290,7 +292,7 @@ Example: `mintlify`
     </ResponseField>
     <ResponseField name="isHidden" type="boolean" default="false">
       Set to true to hide the dark/light mode toggle. You can combine `isHidden` with `default` to force your docs to only use light or dark mode. For example:
-      
+
       <CodeGroup>
       ```json Only Dark Mode
       "modeToggle": {
